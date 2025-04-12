@@ -1,0 +1,13 @@
+version: '3'
+services:
+  producto-service:
+    build: ./producto-service
+    ports:
+      - "3000:3000"
+    depends_on:
+      - calculo-service
+
+  calculo-service:
+    build: ./calculo-service
+    ports:
+      - "5000:5000"
