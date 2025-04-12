@@ -1,6 +1,4 @@
 
-
-```markdown
 # 📦 Inventario Distribuido con Microservicios
 
 Este sistema permite gestionar productos y calcular automáticamente el valor total del inventario de cada uno. Está dividido en dos microservicios independientes, que se comunican entre sí mediante HTTP. Toda la arquitectura está contenerizada y orquestada con Docker Compose.
@@ -22,14 +20,13 @@ Encargado de:
 - Devolverlo al producto-service.
 
 ---
-
 ## 🚀 Cómo ejecutar el sistema
 
 1. **Clonar el repositorio**
 
 ```bash
-git clone <URL-del-repo>
-cd inventario-distribuido
+git clone [<URL-del-repo>](https://github.com/juanreina19/microservicios-gestioninventario)
+cd <nombre-carpeta>
 ```
 
 2. **Construir e iniciar los contenedores**
@@ -130,4 +127,3 @@ Esto iniciará:
   ```
 
 
-```
